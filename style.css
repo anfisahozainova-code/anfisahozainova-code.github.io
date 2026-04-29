@@ -27,6 +27,7 @@ header {
 .container {
     max-width: 1100px; 
     padding: 0 20px; 
+    margin:0 auto;
 }
 
 .content-block {
@@ -93,4 +94,35 @@ li {
 
 .main-rule {
     padding: 10px;
+}
+.content-block1{
+    display:flex;
+    gap:40px;
+}
+.block1-left{
+    width:48%;
+}
+.block1-right{
+    width:48%;
+    margin-top: 116px;
+}
+.block2-main{
+    display:flex;
+}
+.block2-left{
+    width: 56%;
+
+}
+.block2-right{
+    width:30%;
+    margin-top: 156px;
+}
+.block1{
+    margin-top: 35px;
+}
+.block2{
+    margin-top: 40px;
+}
+.block2-rightext{
+    margin-top: 35px;
 }
